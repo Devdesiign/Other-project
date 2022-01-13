@@ -1,0 +1,48 @@
+/*** General Rulesets ***/
+body {
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header h3 {}
+
+.nav {}
+
+.navlist {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 24px;
+
+}
+
+.navlist .navitem {
+    list-style-type: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*** Media Queries ***/
+@media (min-width: 280px) and (max-width: 800px){
+    li.desktop{
+        display: none;
+    }
+}
+
+@media (min-width: 801px){
+    .navlist .mobile{
+        display: none;
+    }
+}
