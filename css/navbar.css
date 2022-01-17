@@ -16,37 +16,37 @@ header {
     align-items: center;
 }
 
-.logo {
+.header .logo {
     color: #444;
 
 }
 
-.navlist {
+.header .navlist {
     display: flex;
     gap: 12px;
     align-items: center;
 }
 
-.navitem {
+.header .navitem {
     list-style-type: none;
     padding: 4px;
 }
 
-.navlink {
+.header .navlink {
     text-decoration: none;
     color: #444;
 }
 
-.navlink:hover {
+.header .navlink:hover {
     opacity: 0.7;
 }
 
-.nav-active {
+.header .nav-active {
     border-bottom: 2px solid;
     padding-bottom: 8px;
 }
 
-.nav-active:hover {
+.header .nav-active:hover {
     opacity: 1;
 }
 
@@ -58,7 +58,7 @@ header {
     .header{
         margin: 0 16px;
     }
-    .desktop{
+    nav .navlist .desktop{
         display: none;
     }
 }
@@ -68,7 +68,7 @@ header {
         margin: 0 24px;
     }
 
-    .mobile {
+    nav .navlist .mobile {
         display: none;
     }
 }

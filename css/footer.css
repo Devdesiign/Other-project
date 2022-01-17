@@ -1,0 +1,12 @@
+.footer {
+    background-color: #444;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto 0;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.footer-navlinks-container .navlist{
+    display: block;
+}
