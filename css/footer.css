@@ -1,12 +1,122 @@
+/*General Ruleset*/
 .footer {
     background-color: #444;
     display: flex;
     flex-wrap: wrap;
     margin: auto 0;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     color: white;
+
 }
-.footer-navlinks-container .navlist{
-    display: block;
+
+.footer-navlinks-container .navlist {
+    display: inline;
+}
+
+.footer-navlinks-container .navlist .navitem {
+    list-style-type: none;
+    padding: 12px 0;
+}
+
+.footer-navlink {
+    color: white;
+    text-decoration: none;
+
+}
+
+.footer-navlink:hover {
+    text-decoration: underline;
+}
+
+
+
+.footer-address-container a {
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid white;
+    color: white;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    text-decoration: none;
+
+
+}
+
+.footer .sub-text {
+    padding: 24px 0;
+}
+
+.footer-address-container a:hover {
+    
+    color: #444;
+    background-color: white;
+
+}
+
+.social-media-icons {
+    display: flex;
+    gap: 32px;
+    margin-top: 24px;
+}
+
+.social-media-icons a {
+    color: white;
+    background-color: #444;
+    border: none;
+}
+
+
+
+
+/*** Media Queries ***/
+
+
+@media (min-width: 300px) and (max-width: 520px) {
+    .footer-navlinks-container {
+        margin-left: 16px;
+    }
+
+    .footer-address-container {
+        margin-left: 16px;
+    }
+}
+@media (min-width: 521px) and (max-width: 768px) {
+    .footer {
+        justify-content: center;
+        gap: 6%;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 840px) {
+    .footer {
+        justify-content: center;
+        gap: 12%;
+    }
+
+}
+
+@media (min-width: 841px) and (max-width: 1024px) {
+    .footer {
+        justify-content: center;
+        gap: 24%;
+    }
+
+}
+@media (min-width: 1025px) and (max-width: 1200px) {
+    .footer {
+        justify-content: center;
+        gap: 36%;
+    }
+
+}
+
+@media (min-width: 1201px) {
+    .footer {
+        justify-content: center;
+        gap: 48%
+    }
+
 }
