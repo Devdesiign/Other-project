@@ -1,4 +1,8 @@
-.services {}
+.services {
+    padding: 8px;
+    color: #444;
+    background-color: e5e5e5;
+}
 
 .services .main-text {
     font-size: 1.2em;
@@ -10,13 +14,89 @@
 
 .card {
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     flex-wrap: wrap;
 
 }
 
 
-img {
-    width: 100%;
-    height: 50%;
+img,
+.content {
+    max-width: 100%;
+
+}
+
+.content {
+    font-size: 1em;
+}
+
+.services a {
+    text-decoration: none;
+    display: inline-block;
+    color: rgba(0, 0, 255, 0.7);
+}
+
+.services a:hover,
+.services .fas:hover {
+    text-decoration: underline;
+}
+
+/*** Media Queries ***/
+
+@media (min-width: 426px) and (max-width: 600px) {
+
+    img,
+    .content {
+        max-width: 80%;
+
+    }
+}
+
+@media (min-width: 601px) and (max-width: 768px) {
+
+    img {
+        width: 55%;
+
+    }
+
+    .content {
+        width: 45%;
+        height: 50%;
+        align-self: center;
+    }
+
+    .card {
+        justify-content: space-between;
+        align-content: center;
+    }
+    .services .main-text {
+        font-size: 1.4em;
+        margin-left: 2%;
+    }
+    .content {
+        font-size: 1.2em;
+    }
+}
+@media (min-width: 769px) {
+.services .main-text {
+    font-size: 1.6em;
+    margin-left: 4%;
+}
+    img {
+        width: 40%;
+
+    }
+
+    .content {
+        width: 45%;
+        align-self: center;
+    }
+
+    .card {
+        justify-content: center;
+        align-content: center;
+    }
+    .content {
+        font-size: 1.4em;
+    }
 }
