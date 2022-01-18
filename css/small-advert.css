@@ -1,0 +1,40 @@
+/* General Ruleset */
+.small-advert {
+    background-color: #222;
+    padding: 32px;
+}
+
+.small-advert .main-text {
+    color: #fff;
+    font-size: max(1.5em);
+  
+}
+
+.small-advert a {
+    background-color: #fff;
+    padding: 12px;
+    color: #222;
+    text-decoration: none;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    display: inline-block;
+}
+
+.small-advert a:hover {
+    opacity: .7;
+}
+
+/*** Media Queries ***/
+
+@media (min-width: 769px){
+.small-advert .main-text{
+    margin-left: 8%;
+}
+.small-advert a{
+    margin-left: 8%;
+}
+
+}
