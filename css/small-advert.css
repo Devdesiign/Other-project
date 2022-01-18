@@ -6,7 +6,8 @@
 
 .small-advert .main-text {
     color: #fff;
-    font-size: max(1.5em);
+    font-size: 1.2em;
+    margin-left: 0px;
   
 }
 
@@ -21,6 +22,7 @@
     -ms-border-radius: 4px;
     -o-border-radius: 4px;
     display: inline-block;
+    margin-left: 0px;
 }
 
 .small-advert a:hover {
@@ -32,9 +34,11 @@
 @media (min-width: 769px){
 .small-advert .main-text{
     margin-left: 8%;
+    font-size: 1.4em;
 }
 .small-advert a{
     margin-left: 8%;
+    font-size: 1.2em;
 }
 
 }

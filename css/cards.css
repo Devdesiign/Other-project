@@ -1,19 +1,36 @@
 /* General Ruleset */
 
-.advert {}
+.advert {
+    color: #222;
+    background-color: #fefefe;
+}
 
 .advert .main-text {
     font-size: 1.4em;
+    margin-left: 16px;
 
 }
 
-.card-holder {}
+.card-holder {
+margin: 24px auto;
+}
 
 .card {
-    width: fit-content;
+    padding: 8px;
 }
 
 .card img {
     width: 100%;
-    display: inline-block;
+}
+
+.card span, p, img {
+    display: block;
+    margin: 16px auto;
+}
+.card p{
+    color: #444;
+    font-size: 1em;
+}
+.card span{
+    font-size: 1.2em;
 }
