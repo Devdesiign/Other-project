@@ -1,0 +1,19 @@
+/* General Ruleset */
+
+.advert {}
+
+.advert .main-text {
+    font-size: 1.4em;
+
+}
+
+.card-holder {}
+
+.card {
+    width: fit-content;
+}
+
+.card img {
+    width: 100%;
+    display: inline-block;
+}
