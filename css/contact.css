@@ -1,0 +1,53 @@
+.contact-holder {
+    padding: 24px;
+    margin: auto auto 36px;
+}
+
+.contact-holder .main-text {
+    margin-left: 0px;
+    font-size: 1.4em;
+    margin-bottom: 36px;
+    font-weight: bold;
+}
+
+.contact-holder .sub-text {
+    font-size: 1.2em;
+}
+
+.contact-holder a {
+    background-color: #444;
+    padding: 12px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    display: inline-block;
+    margin-left: 0px;
+}
+
+.contact-holder a:hover {
+    opacity: .7;
+}
+
+/*** Media Queries ***/
+
+@media (min-width: 769px) {
+    .contact-holder .main-text {
+        margin-left: 8%;
+        font-size: 1.6em;
+    }
+
+    .contact-holder .sub-text {
+        font-size: 1.4em;
+        margin-left: 8%;
+    }
+
+    .contact-holder a {
+        margin-left: 8%;
+        font-size: 1.2em;
+    }
+
+}
