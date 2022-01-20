@@ -1,5 +1,4 @@
 .services {
-    padding: 8px;
     color: #444;
     background-color: #fff;
 
@@ -7,6 +6,7 @@
 
 .services .main-text {
     font-size: 1.2em;
+    margin-left: 16px;
 }
 
 .services .card-holder {
@@ -15,9 +15,9 @@
 
 .card {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     flex-wrap: wrap;
-
+    margin-left: 16px;
 }
 
 
@@ -49,7 +49,6 @@ img,
     img,
     .content {
         max-width: 80%;
-
     }
 }
 
@@ -62,7 +61,6 @@ img,
 
     .content {
         width: 45%;
-        height: 50%;
         align-self: center;
     }
 
@@ -70,26 +68,30 @@ img,
         justify-content: space-between;
         align-content: center;
     }
+
     .services .main-text {
         font-size: 1.4em;
         margin-left: 2%;
     }
+
     .content {
         font-size: 1.2em;
     }
 }
+
 @media (min-width: 769px) {
-.services .main-text {
-    font-size: 1.6em;
-    margin-left: 4%;
-}
+    .services .main-text {
+        font-size: 1.6em;
+        margin-left: 4%;
+    }
+
     img {
-        width: 40%;
+        max-width: 40%;
 
     }
 
     .content {
-        width: 45%;
+        width: 50%;
         align-self: center;
     }
 
@@ -97,6 +99,29 @@ img,
         justify-content: center;
         align-content: center;
     }
+
+    .content {
+        font-size: 1.4em;
+    }
+}
+@media (min-width: 1200px) {
+    
+
+    img {
+        max-width: 20%;
+
+    }
+
+    .content {
+        width: 40%;
+        align-self: center;
+    }
+
+    .card {
+        justify-content: center;
+        align-content: center;
+    }
+
     .content {
         font-size: 1.4em;
     }
