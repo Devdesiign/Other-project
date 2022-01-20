@@ -1,3 +1,6 @@
+body{
+    
+}
 .services {
     color: #444;
     background-color: #fff;
@@ -6,7 +9,7 @@
 
 .services .main-text {
     font-size: 1.2em;
-    margin-left: 16px;
+    margin-left: 8px;
 }
 
 .services .card-holder {
@@ -17,7 +20,7 @@
     display: flex;
     justify-content: flex-start;
     flex-wrap: wrap;
-    margin-left: 16px;
+    margin-left: 8px;
 }
 
 

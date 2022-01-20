@@ -1,0 +1,92 @@
+body{
+    color: #222;
+}
+.agency-hero .main-text {
+    font-size: 1.2em;
+    margin: auto 16px;
+}
+
+.agency-hero img {
+    width: 100%;
+}
+
+.agency-content p {
+    word-spacing: 1px;
+    margin:auto 16px;
+    line-height: 20px;
+}
+
+.agency-content a {
+    text-decoration: none;
+    display: inline-block;
+    color: rgba(0, 0, 255, 0.7);
+}
+
+.agency-content a:hover,
+.agency-content .fas:hover {
+    text-decoration: underline;
+}
+
+.agency {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.agency img {
+    max-width: 90%;
+}
+
+.owner {
+    display: flex;
+    flex-wrap: wrap;
+    width: fit-content;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.owner .card img {
+    max-width: 40%;
+
+}
+
+.owner .card span {
+    font-size: 1.2em;
+}
+
+.owner .card p {
+    font-size: 1em;
+}
+
+.owner a {
+    margin: auto 2px;
+    text-decoration: none;
+    display: inline-block;
+    color: rgba(0, 0, 255, 0.7);
+}
+
+.owner a:hover {
+    text-decoration: underline;
+}
+
+/*** Media Queries ***/
+
+@media (min-width: 768px) {
+    .agency-hero .main-text {
+        font-size: 1.6em;
+    }
+    .agency-content p {
+        font-size: 1.2em;
+    }
+
+    .owner .card span {
+        font-size: 1.4em;
+        
+    }
+
+    .owner .card p {
+        font-size: 1.2em;
+        
+    }
+
+}
