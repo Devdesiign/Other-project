@@ -1,5 +1,9 @@
 /*** General Rulesets ***/
-body {}
+body {
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+}
+
 header {
     margin: 0;
     top: 0;
@@ -8,7 +12,7 @@ header {
     width: 100%;
     background-color: white;
     padding: 8px 0;
-    
+
 }
 
 .header {
@@ -55,11 +59,12 @@ header {
 /*** Media Queries ***/
 
 
-@media (min-width: 300px) and (max-width: 768px){
-    .header{
+@media (min-width: 300px) and (max-width: 768px) {
+    .header {
         margin: 0 16px;
     }
-    nav .navlist .desktop{
+
+    nav .navlist .desktop {
         display: none;
     }
 }

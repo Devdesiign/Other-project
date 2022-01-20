@@ -1,15 +1,24 @@
 /* General Ruleset */
-body {}
+body {
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+}
+
 .small-advert {
     background-color: #222;
     padding: 32px;
 }
 
+.small {
+    margin: 0;
+}
+
 .small-advert .main-text {
     color: #fff;
-    font-size: 1.2em;
-    margin-left: 0px;
-  
+    font-size: .9em;
+    margin-left: 0;
+    display: inline-block;
+
 }
 
 .small-advert a {
@@ -27,19 +36,20 @@ body {}
 }
 
 .small-advert a:hover {
-    opacity: .7;
+    opacity: .8;
 }
 
 /*** Media Queries ***/
 
-@media (min-width: 769px){
-.small-advert .main-text{
-    margin-left: 8%;
-    font-size: 1.4em;
-}
-.small-advert a{
-    margin-left: 8%;
-    font-size: 1.2em;
-}
+@media (min-width: 769px) {
+    .small-advert .main-text {
+        margin-left: 8%;
+        font-size: 1.4em;
+    }
+
+    .small-advert a {
+        margin-left: 8%;
+        font-size: 1.2em;
+    }
 
 }

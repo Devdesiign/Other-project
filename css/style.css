@@ -1,0 +1,180 @@
+body {
+    margin: 0 0 0 16px;
+    font-family: 'Nunito', sans-serif;
+}
+
+.hero .main-text {
+    font-size: 1.4em;
+    margin-left: 8px;
+}
+
+.hero-banner {
+    background-image: url("https://www.dundw.net/assets/photos/article-transformation-1.jpg");
+    background-size: cover;
+    height: 400px;
+    position: relative;
+}
+
+.hero-banner a {
+    font-size: 1.2em;
+    text-decoration: none;
+    display: block;
+    color: blue;
+    position: absolute;
+    bottom: 1%;
+    left: 2%;
+
+}
+
+
+.hero-banner a:hover {
+    text-decoration: underline;
+}
+
+.services span {
+    display: block;
+    margin: 24px auto;
+    font-size: 1.4em;
+    margin-left: 8px;
+}
+
+.services p {
+    margin: 12px 8px;
+}
+
+.advert {
+    color: #222;
+    background-color: #fefefe;
+}
+
+.advert .main-text {
+    font-size: 1.6em;
+    margin-left: 16px;
+
+}
+
+.card-holder {
+    margin: 24px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    padding: 8px;
+}
+
+.card img {
+    width: 100%;
+}
+
+.card span,
+p,
+img {
+    display: block;
+    margin: 16px auto;
+}
+
+.card p {
+    color: #444;
+    font-size: 1.2em;
+}
+
+.card span {
+    font-size: 1.4em;
+}
+
+.content-box p {
+    font-size: 1.2em;
+}
+
+.content-box a {
+    text-decoration: none;
+    display: inline-block;
+    color: blue;
+}
+
+.services img {
+    width: 80%;
+}
+
+.overview-link {
+    color: #222;
+    display: block;
+    margin: 24px auto;
+    font-size: 1.4em;
+    text-decoration: none;
+    margin-left: 8px;
+
+}
+
+.slide-2,
+.slide3 {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 24px auto;
+}
+
+.slide-2 img,
+.slide-3 img {
+    width: 100%;
+}
+
+/*** Media Queries ***/
+
+
+@media (min-width: 426px) {
+    .hero-banner {
+        height: 480px;
+    }
+
+    .hero-banner a {
+        font-size: 1.2em;
+    }
+}
+
+@media (min-width: 768px) {
+
+    .slide-2,
+    .slide-3 {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+    }
+
+    .slide-2 img,
+    .slide-3 img,
+    .content-box {
+        width: 40%;
+        align-self: center;
+        justify-self: center;
+    }
+
+    .slide-2 .content-box {
+        width: 30%;
+        margin-right: 200px;
+    }
+
+    .slide-3 .content-box {
+        width: 30%;
+        margin-left: 200px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .card-holder {
+
+        flex-wrap: nowrap;
+        justify-content: center;
+    }
+
+    .hero-banner a {
+        font-size: 1.4em;
+
+    }
+
+    .hero-banner {
+        height: 1024px;
+
+    }
+}

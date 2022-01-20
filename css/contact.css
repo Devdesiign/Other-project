@@ -1,4 +1,8 @@
-body {}
+body {
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+}
+
 .contact-holder {
     padding: 24px;
     margin: auto auto 36px;

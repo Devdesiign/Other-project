@@ -1,5 +1,9 @@
 /* General Ruleset */
-body {}
+body {
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+}
+
 .advert {
     color: #222;
     background-color: #fefefe;
@@ -12,7 +16,7 @@ body {}
 }
 
 .card-holder {
-margin: 24px auto;
+    margin: 24px auto;
 }
 
 .card {
@@ -23,14 +27,18 @@ margin: 24px auto;
     width: 100%;
 }
 
-.card span, p, img {
+.card span,
+p,
+img {
     display: block;
     margin: 16px auto;
 }
-.card p{
+
+.card p {
     color: #444;
     font-size: 1.2em;
 }
-.card span{
+
+.card span {
     font-size: 1.4em;
 }

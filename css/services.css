@@ -1,6 +1,7 @@
-body{
-    
+body {
+    font-family: 'Nunito', sans-serif;
 }
+
 .services {
     color: #444;
     background-color: #fff;
@@ -8,7 +9,7 @@ body{
 }
 
 .services .main-text {
-    font-size: 1.2em;
+    font-size: 1.4em;
     margin-left: 8px;
 }
 
@@ -20,13 +21,13 @@ body{
     display: flex;
     justify-content: flex-start;
     flex-wrap: wrap;
-    margin-left: 8px;
+    margin: auto 8px;
 }
 
 
 img,
 .content {
-    max-width: 100%;
+    width: 100%;
 
 }
 
@@ -51,7 +52,7 @@ img,
 
     img,
     .content {
-        max-width: 80%;
+        width: 95%;
     }
 }
 
@@ -107,8 +108,9 @@ img,
         font-size: 1.4em;
     }
 }
+
 @media (min-width: 1200px) {
-    
+
 
     img {
         max-width: 20%;

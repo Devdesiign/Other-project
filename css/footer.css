@@ -1,11 +1,19 @@
 /*General Ruleset*/
-body {}
+body {
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+}
+
+.copyright {
+    display: fit-content;
+}
+
 .footer {
     background-color: #444;
     display: flex;
     flex-wrap: wrap;
     margin: auto 0;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
     color: white;
 
@@ -51,7 +59,7 @@ body {}
 }
 
 .footer-address-container a:hover {
-    
+
     color: #444;
     background-color: white;
 
@@ -84,6 +92,7 @@ body {}
         margin-left: 16px;
     }
 }
+
 @media (min-width: 521px) and (max-width: 768px) {
     .footer {
         justify-content: center;
@@ -106,6 +115,7 @@ body {}
     }
 
 }
+
 @media (min-width: 1025px) and (max-width: 1200px) {
     .footer {
         justify-content: center;

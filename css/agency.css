@@ -1,9 +1,13 @@
-body{
+body {
     color: #222;
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+
 }
+
 .agency-hero .main-text {
-    font-size: 1.2em;
-    margin: auto 16px;
+    font-size: 1.4em;
+    margin: 24px 16px;
 }
 
 .agency-hero img {
@@ -12,8 +16,8 @@ body{
 
 .agency-content p {
     word-spacing: 1px;
-    margin:auto 16px;
-    line-height: 20px;
+    margin: auto auto auto 16px;
+    font-size: 1.2em;
 }
 
 .agency-content a {
@@ -75,18 +79,19 @@ body{
     .agency-hero .main-text {
         font-size: 1.6em;
     }
+
     .agency-content p {
         font-size: 1.2em;
     }
 
     .owner .card span {
         font-size: 1.4em;
-        
+
     }
 
     .owner .card p {
         font-size: 1.2em;
-        
+
     }
 
 }
