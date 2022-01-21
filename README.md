@@ -1,4 +1,4 @@
-# Other-project - My Second Website attempt
+# Other-project - My Second Website Attempt
 
 <p>Switched to this site, <a href="https://www.dundw.net/"> Dassel + Wagner </a> since i am out of content and this website seems like a <em>nice shot</em>. <br/>
 The company is an <b>agency for digital editorial product development</b> based in Bethaniendamm 61 A
