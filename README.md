@@ -1,6 +1,6 @@
 ### Other Project - Replication of https://www.dundw.net
   
-This is my Second attempt to Replicating a website made with No-Code Technology i.e WordPress.
+This is my First attempt to Replicating a website made with No-Code Technology i.e WordPress.
  
 The original website <a href="https://www.dundw.net/"> Dassel + Wagner </a> is in German but i will be coding mine in English and i would be modifying some errors.
 
